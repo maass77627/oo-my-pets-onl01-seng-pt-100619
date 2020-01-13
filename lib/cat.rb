@@ -12,5 +12,6 @@ class Cat
     @mood = nervous 
   end
   
-  def self.all 
+  def self.all
+    @@all
 end 
